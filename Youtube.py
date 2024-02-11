@@ -59,7 +59,7 @@ time.sleep(30)
 
 # Comment on the video
 comment_box = driver.find_element(By.CSS_SELECTOR, "[role='textbox']")
-comment_box.send_keys("Nice GG!")
+#comment_box.send_keys("Nice GG!")
 time.sleep(random.uniform(1.545, 2.541))
 
 # Submit the comment
